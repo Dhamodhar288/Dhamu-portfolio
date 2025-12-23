@@ -219,7 +219,9 @@ nav a:hover::after {
   gap: 15px;
 }
 
-button {
+.buttons a {
+  text-decoration: none;
+  color: black;
   padding: 12px 24px;
   border-radius: 30px;
   font-size: 14px;
@@ -236,7 +238,7 @@ button {
   border: 2px solid orange;
 }
 
-.btn-dark {
+.buttons .btn-dark {
   background: black;
   color: white;
   border: none;
